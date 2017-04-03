@@ -7,4 +7,4 @@
 Reference-style: 
 ![alt text][logo]
 
-[logo]: http://orig12.deviantart.net/07fc/f/2012/190/1/3/cute_png_by_trubuteofdistrict13-d56m5j1.png "Logo Title Text 2"
+[logo]: http://static.tumblr.com/1ca08bae5a0b5c088421eeeb08a10078/hixoe2z/T3tny76rs/tumblr_static_3dkvtda3z14w8skskc40k04cs.png "Logo Title Text 2"

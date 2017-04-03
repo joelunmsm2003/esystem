@@ -6,4 +6,4 @@
 
 . npm install
 
-[logo]: http://cdn.playbuzz.com/cdn/efab27b9-f7a4-4608-9b0e-b19ac67750cc/41ad93fb-f1a0-42e9-a8c7-5b363326b363.gif "Logo Title Text 2"
+[logo]: http://orig12.deviantart.net/07fc/f/2012/190/1/3/cute_png_by_trubuteofdistrict13-d56m5j1.png "Logo Title Text 2"

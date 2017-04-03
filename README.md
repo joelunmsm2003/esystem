@@ -6,4 +6,4 @@
 
 . npm install
 
-[logo]: http://www.quevirgo.com/wp-content/uploads/2016/11/nenas31-300x372.jpg "Logo Title Text 2"
+[logo]: http://cdn.playbuzz.com/cdn/efab27b9-f7a4-4608-9b0e-b19ac67750cc/41ad93fb-f1a0-42e9-a8c7-5b363326b363.gif "Logo Title Text 2"

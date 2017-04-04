@@ -40,10 +40,8 @@ gulp.task('styles', function() {
 // Watch files for changes (without Browser-Sync)
 gulp.task('watch', function() {
 
-	
-	gulp.watch('./index.js', ['index']);
+	gulp.watch('./variables.scss', ['styles']);
 
-	
 }); 
 
 // Run styles, site-js and bootstrap-js

@@ -38,6 +38,7 @@
     "ngstorage": "^0.3.11",
     "oclazyload": "^1.0.9",
     "sass-loader": "^3.2.0",
+    "slick-carousel": "^1.6.0",
     "style-loader": "^0.13.1",
     "url-loader": "^0.5.7",
     "webpack": "^1.13.1"

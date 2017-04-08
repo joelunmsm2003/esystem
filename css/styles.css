@@ -1,6 +1,6 @@
-.page-section{
+.quienessomos{
 
-	 background: url(http://p1.pichost.me/i/66/1910819.jpg) no-repeat center center fixed; 
+	 background: url(http://p1.pichost.me/i/66/1910819.jpg) no-repeat center center ; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -9,6 +9,29 @@
   
 }
 
+.experiencia,.beneficios,.clientes{
+ 
+
+  padding: 38px;
+  
+}
+
 #overview{
 
+}
+
+.page-section2{
+
+	padding: 3em;
+}
+
+.titulo{
+
+	padding-top: 42PX;
+}
+
+.clientelogo{
+
+	padding:1em;
+	height: 12px;
 }

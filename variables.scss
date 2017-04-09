@@ -244,9 +244,75 @@ $grid-gutter-widths: (
 //
 // Font, line-height, and color for body text, headings, and more.
 
-$font-family-sans-serif: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !default;
-$font-family-serif:      Georgia, "Times New Roman", Times, serif !default;
-$font-family-monospace:  Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
+@font-face {
+  font-family: AbhayaLibre-Bold;
+  src: url(../fonts/AbhayaLibre-Bold.ttf); }
+
+@font-face {
+  font-family: AbhayaLibre-ExtraBold;
+  src: url(../fonts/AbhayaLibre-ExtraBold.ttf); }
+
+@font-face {
+font-family: AbhayaLibre-Medium;
+src: url(../fonts/AbhayaLibre-Medium.ttf); }
+
+
+@font-face {
+font-family: AbhayaLibre-Regular;
+  src: url(../fonts/AbhayaLibre-Regular.ttf); }
+
+@font-face {
+  font-family: AbhayaLibre-SemiBold;
+  src: url(../fonts/AbhayaLibre-SemiBold.ttf); }
+
+@font-face {
+  font-family: Lato-Bla;
+  src: url(../fonts/Lato-Bla.ttf); }
+
+@font-face {
+  font-family: Lato-BlaIta;
+  src: url(../fonts/Lato-BlaIta.ttf); }
+
+
+@font-face {
+  font-family: Lato-Bol;
+  src: url(../fonts/Lato-BlaIta.ttf); }
+
+@font-face {
+  font-family: Lato-BolIta;
+  src: url(../fonts/Lato-BolIta.ttf); }
+
+@font-face {
+  font-family: Lato-BlaIta;
+  src: url(../fonts/Lato-BlaIta.ttf); }
+
+@font-face {
+  font-family: Lato-Lig;
+  src: url(../fonts/Lato-Lig.ttf); }
+
+@font-face {
+  font-family: Lato-LigIta;
+  src: url(../fonts/Lato-LigIta.ttf); }
+
+@font-face {
+  font-family: Lato-Lig;
+  src: url(../fonts/Lato-Lig.ttf); }
+
+@font-face {
+  font-family: Lato-Reg;
+  src: url(../fonts/Lato-Reg.ttf); }
+
+@font-face {
+  font-family: Lato-RegIta;
+  src: url(../fonts/Lato-RegIta.ttf); }
+
+
+
+  
+
+$font-family-sans-serif: AbhayaLibre-SemiBold,-apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !default;
+$font-family-serif:      AbhayaLibre-SemiBold,Georgia, "Times New Roman", Times, serif !default;
+$font-family-monospace:  AbhayaLibre-SemiBold,Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
 $font-family-base:       $font-family-sans-serif !default;
 
 $font-size-base: 1rem !default; // Assumes the browser default, typically `16px`
@@ -260,8 +326,8 @@ $font-weight-bold: bold !default;
 $font-weight-base: $font-weight-normal !default;
 $line-height-base: 1.5 !default;
 
-$font-size-h1: 2.5rem !default;
-$font-size-h2: 2rem !default;
+$font-size-h1: 3.5rem !default;
+$font-size-h2: 3.5rem !default;
 $font-size-h3: 1.75rem !default;
 $font-size-h4: 1.5rem !default;
 $font-size-h5: 1.25rem !default;

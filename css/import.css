@@ -4,6 +4,66 @@
  * Copyright 2011-2017 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+@font-face {
+  font-family: AbhayaLibre-Bold;
+  src: url(../fonts/AbhayaLibre-Bold.ttf); }
+
+@font-face {
+  font-family: AbhayaLibre-ExtraBold;
+  src: url(../fonts/AbhayaLibre-ExtraBold.ttf); }
+
+@font-face {
+  font-family: AbhayaLibre-Medium;
+  src: url(../fonts/AbhayaLibre-Medium.ttf); }
+
+@font-face {
+  font-family: AbhayaLibre-Regular;
+  src: url(../fonts/AbhayaLibre-Regular.ttf); }
+
+@font-face {
+  font-family: AbhayaLibre-SemiBold;
+  src: url(../fonts/AbhayaLibre-SemiBold.ttf); }
+
+@font-face {
+  font-family: Lato-Bla;
+  src: url(../fonts/Lato-Bla.ttf); }
+
+@font-face {
+  font-family: Lato-BlaIta;
+  src: url(../fonts/Lato-BlaIta.ttf); }
+
+@font-face {
+  font-family: Lato-Bol;
+  src: url(../fonts/Lato-BlaIta.ttf); }
+
+@font-face {
+  font-family: Lato-BolIta;
+  src: url(../fonts/Lato-BolIta.ttf); }
+
+@font-face {
+  font-family: Lato-BlaIta;
+  src: url(../fonts/Lato-BlaIta.ttf); }
+
+@font-face {
+  font-family: Lato-Lig;
+  src: url(../fonts/Lato-Lig.ttf); }
+
+@font-face {
+  font-family: Lato-LigIta;
+  src: url(../fonts/Lato-LigIta.ttf); }
+
+@font-face {
+  font-family: Lato-Lig;
+  src: url(../fonts/Lato-Lig.ttf); }
+
+@font-face {
+  font-family: Lato-Reg;
+  src: url(../fonts/Lato-Reg.ttf); }
+
+@font-face {
+  font-family: Lato-RegIta;
+  src: url(../fonts/Lato-RegIta.ttf); }
+
 /*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
 html {
   font-family: sans-serif;
@@ -268,7 +328,7 @@ html {
   -webkit-tap-highlight-color: transparent; }
 
 body {
-  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: AbhayaLibre-SemiBold, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-size: 1rem;
   font-weight: normal;
   line-height: 1.5;
@@ -432,10 +492,12 @@ h1, h2, h3, h4, h5, h6,
   color: inherit; }
 
 h1, .h1 {
-  font-size: 2.5rem; }
+  font-size: 3.5rem;
+  font-family: AbhayaLibre-Medium; }
 
 h2, .h2 {
-  font-size: 2rem; }
+  font-size: 3.5rem;
+  font-family: AbhayaLibre-Extrabold; }
 
 h3, .h3 {
   font-size: 1.75rem; }
@@ -560,7 +622,7 @@ code,
 kbd,
 pre,
 samp {
-  font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
+  font-family: AbhayaLibre-SemiBold, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
 
 code {
   padding: 0.2rem 0.4rem;
@@ -2754,14 +2816,15 @@ tbody.collapse.show {
   display: flex;
   -ms-flex-direction: column;
   flex-direction: column;
-  padding: 0.5rem 1rem; }
+  padding: 0.5rem 1rem;
+  font-family: Lato-Reg; }
 
 .navbar-brand {
   display: inline-block;
   padding-top: .25rem;
   padding-bottom: .25rem;
   margin-right: 1rem;
-  font-size: 1.25rem;
+  font-size: 1rem;
   line-height: inherit;
   white-space: nowrap; }
   .navbar-brand:focus, .navbar-brand:hover {
@@ -3861,7 +3924,7 @@ button.close {
   position: absolute;
   z-index: 1070;
   display: block;
-  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: AbhayaLibre-SemiBold, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
@@ -3943,7 +4006,7 @@ button.close {
   display: block;
   max-width: 276px;
   padding: 1px;
-  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: AbhayaLibre-SemiBold, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;

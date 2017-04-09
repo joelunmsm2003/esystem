@@ -27,4 +27,24 @@
 .descripcion{
 
 	background: red;
+
+
+}
+
+.slick-prev:before {
+    content: "\f060" !important;
+    font-family: FontAwesome !important;
+    font-size:40px !important;
+}
+
+.slick-next:before {
+    content: "\f061" !important;
+    font-family: FontAwesome !important;
+    font-size:40px !important;
+}
+
+.slick-prev:before, .slick-next:before {
+
+    color: #000 !important;
+
 }

@@ -57,6 +57,8 @@
   }
 }
 
+
+
 // Replace `$search` with `$replace` in `$string`
 // @author Hugo Giraudel
 // @param {String} $string - Initial string
@@ -93,14 +95,14 @@
 
 // Start with assigning color names to specific hex values.
 $white:  #fff !default;
-$black:  #000 !default;
-$red:    #d9534f !default;
-$orange: #f0ad4e !default;
-$yellow: #ffd500 !default;
-$green:  #5cb85c !default;
-$blue:   #0275d8 !default;
-$teal:   #5bc0de !default;
-$pink:   #ff5b77 !default;
+$black:  #191d1e !default;
+$red:    rgba(244, 67, 54,1.0) !default;
+$orange: rgba(255, 87, 34,1.0) !default;
+$yellow: rgba(255, 235, 59,1.0) !default;
+$green:  rgba(76, 175, 80,1.0) !default;
+$blue:   #114a8f !default;
+$teal:   rgba(0, 150, 136,1.0) !default;
+$pink:   rgba(233, 30, 99,1.0) !default;
 $purple: #613d7c !default;
 
 // Create grayscale
@@ -276,7 +278,7 @@ font-family: AbhayaLibre-Regular;
 
 @font-face {
   font-family: Lato-Bol;
-  src: url(../fonts/Lato-BlaIta.ttf); }
+  src: url(../fonts/Lato-Bol.ttf); }
 
 @font-face {
   font-family: Lato-BolIta;
@@ -294,9 +296,6 @@ font-family: AbhayaLibre-Regular;
   font-family: Lato-LigIta;
   src: url(../fonts/Lato-LigIta.ttf); }
 
-@font-face {
-  font-family: Lato-Lig;
-  src: url(../fonts/Lato-Lig.ttf); }
 
 @font-face {
   font-family: Lato-Reg;
@@ -323,12 +322,15 @@ $font-size-xs:   .75rem !default;
 $font-weight-normal: normal !default;
 $font-weight-bold: bold !default;
 
+
 $font-weight-base: $font-weight-normal !default;
 $line-height-base: 1.5 !default;
 
-$font-size-h1: 3.5rem !default;
+
+$font-size-h1: 4rem !default;
 $font-size-h2: 3.5rem !default;
-$font-size-h3: 1.75rem !default;
+
+$font-size-h3: 2rem !default;
 $font-size-h4: 1.5rem !default;
 $font-size-h5: 1.25rem !default;
 $font-size-h6: 1rem !default;
@@ -336,7 +338,7 @@ $font-size-h6: 1rem !default;
 $headings-margin-bottom: ($spacer / 2) !default;
 $headings-font-family:   inherit !default;
 $headings-font-weight:   500 !default;
-$headings-line-height:   1.1 !default;
+$headings-line-height:   1.13 !default;
 $headings-color:         inherit !default;
 
 $display1-size: 6rem !default;
@@ -649,6 +651,7 @@ $dropdown-item-padding-x:        1.5rem !default;
 $dropdown-header-color:          $gray-light !default;
 
 
+
 // Z-index master list
 //
 // Warning: Avoid customizing these values. They're used for a bird's eye view
@@ -668,8 +671,8 @@ $zindex-tooltip:            1070 !default;
 // Navbar
 
 $navbar-border-radius:              $border-radius !default;
-$navbar-padding-x:                  $spacer !default;
-$navbar-padding-y:                  ($spacer / 2) !default;
+$navbar-padding-x:                  10rem !default;
+$navbar-padding-y:                  ($spacer / 1) !default;
 
 $navbar-brand-padding-y:            .25rem !default;
 
@@ -685,9 +688,9 @@ $navbar-inverse-disabled-color:        rgba($white,.25) !default;
 $navbar-inverse-toggler-bg: str-replace(url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='#{$navbar-inverse-color}' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"), "#", "%23") !default;
 $navbar-inverse-toggler-border:        rgba($white,.1) !default;
 
-$navbar-light-color:                rgba($black,.5) !default;
+$navbar-light-color:                $blue !default;
 $navbar-light-hover-color:          rgba($black,.7) !default;
-$navbar-light-active-color:         rgba($black,.9) !default;
+$navbar-light-active-color:         $black !default;
 $navbar-light-disabled-color:       rgba($black,.3) !default;
 $navbar-light-toggler-bg: str-replace(url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='#{$navbar-light-color}' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"), "#", "%23") !default;
 $navbar-light-toggler-border:       rgba($black,.1) !default;
@@ -697,8 +700,9 @@ $navbar-light-toggler-border:       rgba($black,.1) !default;
 $nav-item-margin:               .2rem !default;
 $nav-item-inline-spacer:        1rem !default;
 $nav-link-padding:              .5em 1em !default;
-$nav-link-hover-bg:             $gray-lighter !default;
+$nav-link-hover-bg:             $blue !default;
 $nav-disabled-link-color:       $gray-light !default;
+
 
 $nav-tabs-border-color:                       #ddd !default;
 $nav-tabs-border-width:                       $border-width !default;

@@ -41,6 +41,7 @@ gulp.task('styles', function() {
 gulp.task('watch', function() {
 
 	gulp.watch('./variables.scss', ['styles']);
+	gulp.watch('./bootstrap/*.scss', ['styles']);
 
 }); 
 

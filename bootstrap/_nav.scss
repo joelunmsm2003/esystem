@@ -13,6 +13,7 @@
 .nav-link {
   display: block;
   padding: $nav-link-padding;
+  color: $blue;
 
   @include hover-focus {
     text-decoration: none;
